@@ -1,0 +1,12 @@
+{
+  "name": "career-copilot-dev",
+  "interface": { "displayName": "Career Copilot (dev)" },
+  "plugins": [
+    {
+      "name": "career-copilot",
+      "source": { "source": "local", "path": "./" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "category": "Productivity"
+    }
+  ]
+}
