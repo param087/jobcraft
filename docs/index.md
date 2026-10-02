@@ -7,7 +7,7 @@ title: JobCraft
 
 A plugin for AI chat assistants that turns your resume and a job description
 into a structured job-search workflow. Everything runs on text you share;
-nothing is fetched from job boards or sent on your behalf.
+it does not fetch from job boards or send anything on your behalf.
 
 ## What it does
 
@@ -21,12 +21,12 @@ nothing is fetched from job boards or sent on your behalf.
   and email template using the numbers you provide.
 - **Track applications** in a simple table you own and update in chat.
 
-## What it does not do
+## Out of scope
 
 - Search or scrape job boards or LinkedIn.
 - Submit applications, send emails, or message recruiters.
 - Provide live salary or market data.
-- Invent experience, titles, dates, or metrics.
+- Add experience, titles, dates, or metrics that are not in your materials; gaps are listed for you to address instead.
 
 ## Get started
 

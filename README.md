@@ -1,8 +1,8 @@
 # JobCraft
 
 A skills-only plugin for AI chat assistants. Job-search workflows that run on
-the resume and job description you provide — nothing is fetched from job
-boards, nothing is submitted on your behalf.
+the resume and job description you provide. It does not fetch from job
+boards or submit anything on your behalf.
 
 Site: https://param087.github.io/jobcraft/
 
