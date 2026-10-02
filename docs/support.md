@@ -5,10 +5,10 @@ title: Support
 
 # Support
 
-Career Copilot is maintained by Param Bhavsar.
+JobCraft is maintained by Param Bhavsar.
 
 - **Bug reports and feature requests:** open an issue at
-  <https://github.com/param087/career-copilot/issues>.
+  <https://github.com/param087/jobcraft/issues>.
 - **Email:** support requests can be sent via the contact form on
   <https://github.com/param087>.
 
@@ -19,9 +19,9 @@ Response time is typically within a few business days.
 **Can it search for jobs?** No. Paste a job description and it will work from
 that text.
 
-**Where is my data stored?** Nowhere by the plugin. Career Copilot is a set
-of instructions (skills) that run inside ChatGPT; it has no server and keeps
-no copies of your documents. Your conversation is subject to OpenAI's own
+**Where is my data stored?** Nowhere by the plugin. JobCraft is a set
+of instructions (skills) that run inside your AI assistant; it has no server and keeps
+no copies of your documents. Your conversation is subject to the assistant provider's own
 data policies.
 
 **It refused to add a skill to my resume.** By design: the plugin only

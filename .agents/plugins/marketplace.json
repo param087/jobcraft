@@ -1,9 +1,9 @@
 {
-  "name": "career-copilot-dev",
-  "interface": { "displayName": "Career Copilot (dev)" },
+  "name": "jobcraft-dev",
+  "interface": { "displayName": "JobCraft (dev)" },
   "plugins": [
     {
-      "name": "career-copilot",
+      "name": "jobcraft",
       "source": { "source": "local", "path": "./" },
       "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
       "category": "Productivity"

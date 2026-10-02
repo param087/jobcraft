@@ -1,4 +1,4 @@
-# Career Copilot — Design
+# JobCraft — Design
 
 **Date:** 2026-10-02
 **Status:** Approved

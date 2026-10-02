@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Career Copilot
+title: JobCraft
 ---
 
-# Career Copilot
+# JobCraft
 
-A plugin for ChatGPT and Codex that turns your resume and a job description
+A plugin for AI chat assistants that turns your resume and a job description
 into a structured job-search workflow. Everything runs on text you share;
 nothing is fetched from job boards or sent on your behalf.
 
@@ -30,9 +30,9 @@ nothing is fetched from job boards or sent on your behalf.
 
 ## Get started
 
-Install Career Copilot from the Plugins directory in ChatGPT, then paste your
+Install JobCraft from your assistant's plugin directory, then paste your
 resume and a job description and say what you need, for example
 "Tailor my resume for this job description."
 
 [Support](support) · [Privacy policy](privacy) · [Terms of use](terms) ·
-[Source on GitHub](https://github.com/param087/career-copilot)
+[Source on GitHub](https://github.com/param087/jobcraft)

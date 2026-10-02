@@ -8,7 +8,7 @@ python3 scripts/validate.py
 
 VERSION="$(python3 -c 'import json;print(json.load(open("plugin.json"))["version"])')"
 OUT_DIR="dist"
-OUT="$OUT_DIR/career-copilot-$VERSION.zip"
+OUT="$OUT_DIR/jobcraft-$VERSION.zip"
 
 mkdir -p "$OUT_DIR"
 rm -f "$OUT"

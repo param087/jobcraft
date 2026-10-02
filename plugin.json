@@ -1,14 +1,14 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
-  "name": "career-copilot",
-  "version": "1.0.0",
+  "name": "jobcraft",
+  "version": "1.0.1",
   "description": "Job search workflows that run on your own documents: tailor a resume to a job description, draft a cover letter, prepare for interviews, plan an offer negotiation, and track applications. Works only with text you provide; never searches or scrapes job boards.",
   "author": {
     "name": "Param Bhavsar",
     "url": "https://github.com/param087"
   },
-  "homepage": "https://param087.github.io/career-copilot/",
-  "repository": "https://github.com/param087/career-copilot",
+  "homepage": "https://param087.github.io/jobcraft/",
+  "repository": "https://github.com/param087/jobcraft",
   "license": "MIT",
   "keywords": [
     "resume",
@@ -22,9 +22,9 @@
   "extensions": {
     "com.openai": {
       "interface": {
-        "displayName": "Career Copilot",
+        "displayName": "JobCraft",
         "shortDescription": "Tailor, prep, negotiate, track",
-        "longDescription": "Career Copilot turns ChatGPT into a structured job-search assistant that works on the documents you share.\n\nWhat it does:\n- Tailor your resume to a specific job description with a keyword-gap table, rewritten bullets grounded in your real experience, and ATS formatting checks.\n- Draft a concise cover letter from your resume and the job description, flagging any claim it cannot verify from your materials.\n- Prepare for interviews with likely questions by category, STAR answer drafts built from your resume, and questions to ask the interviewer.\n- Plan an offer negotiation with a priority matrix, a counter-offer script, and an email template, using numbers you provide.\n- Track applications in a simple table you own and update in chat.\n\nHow it works: paste or attach your resume and the job description, then ask for what you need. Each workflow produces a useful result on the first turn and asks at most one clarifying question.\n\nLimitations: Career Copilot does not search or scrape job boards or LinkedIn, does not submit applications or send messages on your behalf, does not provide live salary data, and never invents experience, titles, dates, or metrics that are not in your materials.",
+        "longDescription": "JobCraft is a structured job-search assistant that works on the documents you share.\n\nWhat it does:\n- Tailor your resume to a specific job description with a keyword-gap table, rewritten bullets grounded in your real experience, and ATS formatting checks.\n- Draft a concise cover letter from your resume and the job description, flagging any claim it cannot verify from your materials.\n- Prepare for interviews with likely questions by category, STAR answer drafts built from your resume, and questions to ask the interviewer.\n- Plan an offer negotiation with a priority matrix, a counter-offer script, and an email template, using numbers you provide.\n- Track applications in a simple table you own and update in chat.\n\nHow it works: paste or attach your resume and the job description, then ask for what you need. Each workflow produces a useful result on the first turn and asks at most one clarifying question.\n\nLimitations: JobCraft does not search or scrape job boards or LinkedIn, does not submit applications or send messages on your behalf, does not provide live salary data, and never invents experience, titles, dates, or metrics that are not in your materials.",
         "developerName": "Param Bhavsar",
         "category": "Productivity",
         "capabilities": [
@@ -34,10 +34,10 @@
           "Offer negotiation planning",
           "Application tracking"
         ],
-        "websiteURL": "https://param087.github.io/career-copilot/",
-        "supportURL": "https://param087.github.io/career-copilot/support",
-        "privacyPolicyURL": "https://param087.github.io/career-copilot/privacy",
-        "termsOfServiceURL": "https://param087.github.io/career-copilot/terms",
+        "websiteURL": "https://param087.github.io/jobcraft/",
+        "supportURL": "https://param087.github.io/jobcraft/support",
+        "privacyPolicyURL": "https://param087.github.io/jobcraft/privacy",
+        "termsOfServiceURL": "https://param087.github.io/jobcraft/terms",
         "defaultPrompt": [
           "Tailor my resume for this job description.",
           "Prep me for an interview based on this job description.",
@@ -51,7 +51,7 @@
       "onboardingSkill": "./skills/get-started/SKILL.md",
       "publication": {
         "countries": [],
-        "release_notes": "Initial release: resume tailoring, cover letters, interview prep, offer negotiation planning, and application tracking."
+        "release_notes": "Initial release of JobCraft: resume tailoring, cover letters, interview prep, offer negotiation planning, and application tracking."
       }
     }
   }

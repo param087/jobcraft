@@ -1,8 +1,8 @@
-# Career Copilot Implementation Plan
+# JobCraft Implementation Plan
 
 > **For Claude:** REQUIRED SUB-SKILL: Use superpowers:executing-plans to implement this plan task-by-task.
 
-**Goal:** Build and package a skills-only ChatGPT/Codex plugin ("Career Copilot") ready for directory submission.
+**Goal:** Build and package a skills-only ChatGPT/Codex plugin ("JobCraft") ready for directory submission.
 
 **Architecture:** Portable Agent Plugins package: `plugin.json` manifest + six `skills/*/SKILL.md` + assets. A Python validation script enforces manifest limits and SKILL.md frontmatter so packaging errors are caught before upload.
 
@@ -58,7 +58,7 @@ Step 2: Commit repo file only.
 **Files:**
 - Create: `README.md` (test matrix), `scripts/package.sh`
 
-Step 1: `package.sh` runs validator then zips `plugin.json skills assets README.md` to `dist/career-copilot-<version>.zip`.
+Step 1: `package.sh` runs validator then zips `plugin.json skills assets README.md` to `dist/jobcraft-<version>.zip`.
 Step 2: Run → zip exists, `unzip -l` lists expected files only.
 Step 3: Commit.
 

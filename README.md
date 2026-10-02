@@ -1,10 +1,10 @@
-# Career Copilot
+# JobCraft
 
-A skills-only plugin for ChatGPT and Codex. Job-search workflows that run on
+A skills-only plugin for AI chat assistants. Job-search workflows that run on
 the resume and job description you provide — nothing is fetched from job
 boards, nothing is submitted on your behalf.
 
-Site: https://param087.github.io/career-copilot/
+Site: https://param087.github.io/jobcraft/
 
 ## Skills
 
@@ -25,11 +25,11 @@ python3 scripts/make_assets.py  # regenerate logo/icon
 scripts/package.sh              # validate and build dist/*.zip
 ```
 
-### Local testing in ChatGPT desktop
+### Local testing in the desktop app
 
 A repo marketplace lives at `.agents/plugins/marketplace.json`. For a personal
-install, symlink this folder to `~/.codex/plugins/career-copilot` and add an
-entry to `~/.agents/plugins/marketplace.json`, then restart the ChatGPT
+install, symlink this folder to `~/.codex/plugins/jobcraft` and add an
+entry to `~/.agents/plugins/marketplace.json`, then restart the
 desktop app and install from the Plugins directory under your local source.
 
 ## Manual test matrix
@@ -46,7 +46,7 @@ Run each before submitting a new version. Expected behaviour in parentheses.
 
 ## Submission
 
-See `docs/plans/2026-10-02-career-copilot.md` Task 6. Build the ZIP with
+See `docs/plans/2026-10-02-jobcraft.md` Task 6. Build the ZIP with
 `scripts/package.sh` and upload at https://platform.openai.com/plugins.
 
 ## License
